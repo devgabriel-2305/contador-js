@@ -17,11 +17,13 @@ function calcular(){
             p = 1
         }
         if (i < f){
+            /*Contagem crescente*/
             for(let c = i; c <= f; c += p){
                 res.innerHTML += ` ${c} \u{1F449}`
             }
                 
         }else{
+            /*Contagem regressiva*/
             for(let c = i; c >= f; c -= p){
                 res.innerHTML += ` ${c} \u{1F449}`
             }
