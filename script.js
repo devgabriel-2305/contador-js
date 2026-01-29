@@ -13,8 +13,9 @@ function calcular(){
         let i = Number(ini.value)
         let f = Number(fim.value)
         let p = Number(pas.value)
-        if (pas.value <= 0){
-            res.innerHTML = 'Passo inválido.'
+        if (p <= 0){
+            window.alert('Passo inválido. Considerando como 1.')
+            p = 1
         }
         if (i < f){
             for(let c = i; c <= f; c += p){
