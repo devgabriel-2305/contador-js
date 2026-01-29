@@ -8,7 +8,6 @@ function calcular(){
     if (ini.value.length == 0 || fim.value.length == 0 || pas.value.length == 0){
         res.innerHTML = '[ERRO] Faltam dados!'
     }else{
-        
         res.innerHTML = 'Contando:'
         let i = Number(ini.value)
         let f = Number(fim.value)
