@@ -25,6 +25,7 @@ function calcular(){
                 res.innerHTML += ` ${c} \u{1F449}`
             }
         }
+        res.innerHTML += `\u{1F6A6}`
     }
     ini.value = ''
     fim.value = ''
