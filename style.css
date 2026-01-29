@@ -1,0 +1,49 @@
+@charset "UTF-8";
+html, body{
+    min-height: 100vh;
+}
+header{
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #ff6900;
+}
+.vamos{
+    color: #fa9f38;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.principal{
+    padding: 30px;
+    background-color: #19212c;}
+.campo{
+    background-color: white;
+    padding: 3px 3px 3px 5px;
+    margin-top: 8px;
+    width: 250px;  
+}
+.campo::placeholder{
+    color: rgb(121, 121, 121);
+    font-size: small;
+}
+.btn{
+    background-color: #155dfb;
+    color: white;
+    display: block;
+}
+.btn:hover{
+    background-color: #2469ff;
+}
+.final{
+    padding: 50px;
+}
+.caixas{
+    background-image: linear-gradient(to top, #9f2d00, #020618 20%);
+    padding: 20px 25px;
+    color: rgb(153, 153, 153);
+}
+.rodape{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 25px;
+}
